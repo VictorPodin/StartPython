@@ -19,4 +19,4 @@ print(max_number)
 
 # https://stepik.org/lesson/482377/step/1?unit=473680
 
-print((lambda s1, s2: s1*s2), num(2, 3))
+# print((lambda s1, s2: s1*s2), num(2, 3))

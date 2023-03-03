@@ -18,12 +18,12 @@ scrabble = {"AEIOULNSTRАВЕИНОРСТ": 1,
             "JXШЭЮ": 8,
             "QZФЩЪ": 10} 
 word = input("Введите слово:" ).upper()
-# count = 0
-# for letter in word:
+sum = 0
+for letter in word:
 #     print(letter)
-#     for j in scrabble.items():
+     for j in scrabble.items():
 #         if letter in scrabble.items():
 #             count += scrabble(j) 
-print(sum([i[1] for i in scrabble.items() for j in word if j.upper() in i[0]]))
+#print(sum([i[1] for i in scrabble.items() for j in word if j.upper() in i[0]]))
 # print(count)
 
